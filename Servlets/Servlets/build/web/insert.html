@@ -1,0 +1,66 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Store Database</title>
+        <link rel="stylesheet" type="text/css" href="css/stylex.css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div class="main_page">            
+            <div class="mid_content">
+                <div class="home_inner_panel">
+                    <div class="home_top_panel">
+                    <div id="container">
+                        <form name="insert" method="post"  action="dbUpdateServlet" target="bottom1">		   
+            <h3 align="center" style="color:#FF8C00">Insert New Record</h3>            	    
+		   <table align="center" border="0" cellspacing="0">
+			<tr>
+                   	 <td align="left" valign="top"><label style="font-family:Verdana,sans-serif; color:#fff;font-size:14px">AUTHOR FIRST NAME </label></td>
+			 <td><input type="text" name="ifname"  autofocus="autofocus" required="required"></td>
+                        </tr>
+                        <tr>
+			 <td align="left" valign="top"><label style="font-family:Verdana,sans-serif; color:#fff;font-size:14px">AUTHOR LAST NAME </label></td>
+			 <td><input type="text" name="ilname" required="required"></td>
+                        </tr>
+			<tr>
+                         <tr>
+                   	 <td align="left" valign="top"><label style="font-family:Verdana,sans-serif; color:#fff;font-size:14px">ISBN NO </label></td>
+			 <td><input type="text" name="iisbn"  autofocus="autofocus" required="required"></td>
+                        </tr>
+                        <tr>
+			 <td align="left" valign="top"><label style="font-family:Verdana,sans-serif; color:#fff;font-size:14px">TITLE </label></td>
+			 <td><input type="text" name="ititle" required="required"></td>
+                        </tr>
+			<tr>
+                         <tr>
+                   	 <td align="left" valign="top"><label style="font-family:Verdana,sans-serif; color:#fff;font-size:14px">EDITION NO </label></td>
+			 <td><input type="text" name="ieditionno"  autofocus="autofocus" required="required"></td>
+                        </tr>
+                        <tr>
+			 <td align="left" valign="top"><label style="font-family:Verdana,sans-serif; color:#fff;font-size:14px">COPYRIGHT </label></td>
+			 <td><input type="text" name="icopyright" required="required"></td>
+                        </tr>
+			<tr>
+			 <td align="center" valign="top" colspan="2"><br/>
+                             <input type="submit" class="btn_login" value="Insert" name="insert">
+                         <input type="reset" value="clear" name="reset">
+                         </td>
+                	</tr>
+                    </table> 
+        </form>
+                        </div>
+              </div>
+                </div>  
+                
+            </div>
+        </div>
+       
+        
+
+    </body>
+</html>

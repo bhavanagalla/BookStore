@@ -1,0 +1,97 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Store Database</title>
+        <link rel="stylesheet" type="text/css" href="css/stylex.css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div class="main_page">            
+            <div class="mid_content">
+                <div class="home_inner_panel">
+                    <div class="home_top_panel">
+                        <div class="home_left_panel">
+                            <div id="update" style="display: none; position:relative;"></div>    
+                        </div>
+                    <div id="container">
+                        <form method="post" action="dbQuery" target="bottom1">
+                            <h3 align="center" style="color:#FF8C00">Search Database</h3>            	    
+                            <div>
+                            <table border="0" cellspacing="0">
+                                <tr><td style="text-align: left"><label for="testinput"><font color='white'>Search books by</font></label></td></tr>
+                                <tr><td> <div class="styled-select black rounded">
+                                   <select  name="searchby">
+                                    <option value="">--</option>
+                                    <option value="FirstName">Author's First Name</option>
+                                    <option value="LastName">Author's Last Name</option>
+                                    <option value="ISBN" >ISBN</option>
+                                   </select>
+                                        </div></td>
+                                        <td><input type="text"  name="tb" autocomplete="off" class="input1" style="background: #e4ebeb;"value=""/></td>
+                             </tr></table>
+                                <label for="testinput"><font color='white'>From year</font></label>
+                                &nbsp;<div class="styled-select blue rounded">
+                                        <select name="year">
+                                                <option value="">Year</option>
+                                                <script language="javascript">
+                                                        for(i=1970;i<=2016;i++)
+                                                                document.write("<option>"+i+"</option>");
+                                                </script>
+                                        </select>
+                                    </div> 
+                                <br>
+                            <input type="text" id="search" name="search" placeholder="Search books by Title" autocomplete="off" class="input" value=""/><br /><br>
+                            <label for="testinput1"><font color='white'>Select Table:</font></label><br/>
+                               <div class="styled-select yellow rounded">
+                                   <select  name="Selecttable">	
+                                    <option value="">--</option>
+                                    <option value="Authors">Authors</option>
+                                    <option value="Titles" >Titles</option>
+                                    <option value="AuthorISBN" >AuthorISBN</option>
+                                    </select>
+                                  </div>
+                               <label for="testinput1"><font color='white'>Select Columns:</font></label><br />
+                            <div>
+                                <select name="fields"  multiple>	
+                                    <optgroup label="Authors" >
+                                    <option value="AuthorID" >Author ID</option>
+                                    <option value="FirstName" >First Name</option>
+                                    <option value="LastName">Last Name</option>
+                                    </optgroup>
+                                    <optgroup label="Titles" >
+                                    <option value="ISBN">ISBN</option>
+                                    <option value="Title" >Title</option>
+                                    <option value="EditionNumber" >Edition Number</option>
+                                    <option value="Copyright" >Copyright</option> 
+                                    </optgroup>
+                                    <optgroup label="AuthorISBN" >
+                                    <option value="AuthorID" >Author ID</option>
+                                    <option value="ISBN">ISBN</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                               <input type="checkbox" name="All" checked="checked"><font color='white'> Display Books Information</font><br>
+
+                                <input type="submit" value="" class="submit-btn"/> 
+                                <input type="reset" value="clear" name="reset">
+                    </form>
+                </div>        
+                </div> 
+            </div> 
+        </div>   
+    <div class="bottom_icon">
+    <div class="mid_content">
+        <div class="mid_content_inner">
+            <div class="bottom_icons_home">
+                <h2 align="center"><font color="white"></font></h2>
+            </div>
+        </div>
+    </div>
+</div>    
+    </body>
+</html>
