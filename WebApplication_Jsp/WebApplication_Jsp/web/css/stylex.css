@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0px; padding:0px;
+background: url('.../images/book.jpg') no-repeat fixed;
+background-position: center;
+background-size: cover;
+
+}
+
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 25px;
+   overflow: hidden;
+   width: 240px;
+}
+.styled-select1 {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 25px;
+   overflow: hidden;
+   width: 240px;
+}
+.styled-select[multiple] {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 40px;
+   overflow: hidden;
+   width: 150px;
+}
+.rounded {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+.slate select   { color: #000; }
+.black   { background-color: #58B14C; }
+.yellow  { background-color: #eec111; }
+.blue    { background-color: #3b8ec2; }
+.black select   { color: #000; }
+.yellow select   { color: #000; }
+.blue select   { color: #000; }
+*:focus {
+    outline: none;
+}
+img{border:none;}
+
+input[type="button"]
+{
+    background:#6dc4ee repeat-x;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    border:1px solid #fff;
+    font-size:12px;
+    font-weight:bold;
+    color:#FFFFFF;
+    padding:0;
+    margin:0;
+    
+    display:inline;
+    line-height: 1.2;
+    text-align: center;
+    padding:3px 10px;
+   
+    overflow: visible;
+
+}
+.btn_login
+{
+    background:#6dc4ee repeat-x;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    border:1px solid #FFF;
+    font-size:12px;
+    font-weight:bold;
+    color:#FFFFFF;
+    padding:0;
+    margin:0;
+    height:26px;
+    display:inline;
+    line-height: 1.2;
+    text-align: center;
+    padding:3px 10px;
+    width:auto;
+    overflow: visible;
+
+}
+
+input[type="reset"]
+{
+    background:#6dc4ee repeat-x;
+    font-family:Arial, Helvetica, sans-serif;
+    border:1px solid #FFF;
+    border-radius: 20px;
+    font-size:12px;
+    font-weight:bold;
+    color:#FFFFFF;
+    padding:0;
+    margin:0;
+    height:26px;
+    display:inline;
+    line-height: 1.2;
+    text-align: center;
+    padding:3px 10px;
+    width:auto;
+    overflow: visible;
+
+}
+.mid_content{
+    width:950px;
+    margin:auto;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mid_content_inner{
+    width:950px;
+    float:left;
+    padding:10px 0 20px 0;
+}
+.chair{
+    width:100%;
+    float:left;
+    position:relative;
+}
+.chair_left{
+    width:100px;
+    float:left;
+    position:absolute;
+    left:0px;
+    top:335px;
+}
+.book{
+    width:60px;
+    float:right;
+    position:absolute;
+    right:0px;
+    top:290px;
+}
+.main_page{
+    width:100%;
+    height: 100%;
+    float:left;
+    background:center 300px no-repeat #282828;	
+}
+
+
+
+.bottom_icon{
+    width:100%;
+    float:left;
+}
+.login_id_box_text_box{
+    width:131px;
+    float:left;
+    background-color:#626262;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    border:1px solid #626262;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#fff;
+    font-weight:bold;
+    padding:5px 8px;
+}
+/*---------------------------------------------------------Start Frontp page CSS -----------------------------------------------------*/
+.home_inner_panel{
+    width:950px;
+    float:left;
+  
+}
+.home_top_panel{
+    width:950px;
+    float:left;
+    padding: 2px 0px 0px
+}
+.home_left_panel{
+    width:550px;
+    float:left;
+}
+.home_logo{
+    width:400px;
+    float:left;
+    padding:20px 0 0 0;
+}
+.home_logo1{
+    width:400px;
+    height:300px;
+    alignment-baseline: central;
+    padding:20px 0 0 0;
+}
+.home_big_image_panel{
+    width:400px;
+    float:left;
+    padding:65px 0 0 0;
+}
+.home_right_panel{
+    width:400px;
+    float:left;
+}
+.right_login_box{
+    width:371px;
+    float:right;
+    padding:40px 0 0 0;
+}
+.login_id_box{
+    width:155px;
+    float:left;
+}
+.login_button_home{
+    width:60px;
+    float:left;
+    padding:2px 0 0 0;
+}
+.forgot_detail_home{
+    width:330px;
+    float:left;
+    padding:5px 80px 0 0;
+    text-align:right;
+}
+.forgot_detail_home a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    color:#fff;
+    text-decoration:none;
+}
+.forgot_detail_home a:hover{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    color:#fff;
+    text-decoration:underline;
+}
+.join_now_panel{
+    width:400px;
+    float:left;
+    padding:110px 0 100px 0;
+    text-align:center;
+}
+.bottom_icons_home{
+    width:950px;
+    float:left;
+    padding:30px 0 0 0;
+    text-align:center;
+}
+/*---------------------------------------------------------Close Frontp page CSS -----------------------------------------------------*/
+
+/*---------------------------------------------------------CSS for ultoo.com Registration -----------------------------------------------------*/
+.left_sec{
+    width:245px;float:right;	margin:70px 0 0 0;background:repeat;padding:0 12px 12px 12px;
+}
+.left_sec h1{margin:0px;padding:40px 0 0 0; font-family:Helvetica,Arial, Helvetica, sans-serif; font-size:28px; font-weight:normal; color:#FFFFFF;}
+.left_sec h1.top{margin:0px;padding:18px 0 0 0; font-family:Helvetica,Arial, Helvetica, sans-serif; font-size:28px; font-weight:normal; color:#FFFFFF;}
+.left_sec p{margin:0px;padding:5px 0 0 0; font-family:Helvetica,Arial, Helvetica, sans-serif; font-size:15px; line-height:23px; color:#FFF; font-weight:normal;}
+.left_sec p.sign_up{margin:0px;padding:40px 0 0 0;}
